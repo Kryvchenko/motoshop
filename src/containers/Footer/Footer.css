@@ -1,0 +1,69 @@
+.footer {
+    width: 100%;
+    background: #313131;
+    display: flex;
+    padding-top: 30px;
+}
+.footer-content {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+.social-links {
+    display: flex;
+    margin-top: 5px;
+}
+.social-links > a {
+    text-decoration: none;
+    color: white;
+}
+.testimonial-p {
+    margin: 6px 0;
+}
+.rights {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer-logo {
+    width: 180px;
+    margin-bottom: 10px;
+}
+.footer-text {
+    margin: 6px 0;
+}
+.footer-open-hours {
+    border-bottom: 1px solid #8a8a8a;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.footer-title {
+    margin-bottom: 25px;
+}
+.testimonial-text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-span {
+    background-color: #ffc813;
+    width: 30px;
+    height: 2px;
+    margin-right: 10px;
+}
+@media (min-width: 768px) {
+    .footer-content {
+        padding: 50px 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .footer-content {
+        padding: 50px 20px;
+    }
+    .testimonial-text {
+        margin-top: 30px;
+    }
+}

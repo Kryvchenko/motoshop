@@ -1,0 +1,41 @@
+.features {
+    width: 100%;
+    background: white;
+    display: flex;
+}
+.feature {
+    height: 200px;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.returns {
+    background-color: #929292;
+    background-image: url(/public/images/returns.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team {
+    background-color: #3d3d3d;
+    background-image: url(/public/images/team.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.delivery {
+    background-color: #929292;
+    background-image: url(/public/images/delivery.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.finance {
+    background-color: #3d3d3d;
+    background-image: url(/public/images/finance.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

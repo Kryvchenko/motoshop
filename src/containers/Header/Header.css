@@ -1,0 +1,71 @@
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* background: linear-gradient(to left, #f6f6f6 0%, #f6f6f6 40%, #ffc83b 60%, #ffc83b 100%); */
+    background-color: #929292;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header-mob {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    /* background: linear-gradient(to left, #f6f6f6 0%, #f6f6f6 30%, #ffc83b 70%, #ffc83b 100%); */
+    background-color: #929292;
+}
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 39px;
+    padding-right: 30px;
+}
+.nav-item {
+    padding-left: 50px;
+    font-weight: 500;
+}
+.react-icons-navbar {
+    display: none;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.nav-active {
+    text-decoration: underline; 
+    transition: 300ms ease-in-out; 
+    color: black;  
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover {
+    color: #ff6543;
+    transition: 300ms ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .nav-menu {
+        flex-direction: column;
+    }
+    .nav-item:nth-child(1) {
+       border-top: 1px solid #000;
+       margin-top: 10px;
+       padding-top: 10px;
+    }
+    .nav-item {
+        padding-left: 5px;
+        line-height: 30px;
+    }
+    .react-icons-navbar {
+        position: absolute;
+        display: block;
+        top: 20px;
+        right: 20px;
+    }
+}
+

@@ -1,0 +1,32 @@
+.filter-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filter-btn {
+    font-size: 14px;
+    line-height: 24px;
+    width: 100px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    background: #f6f6f6;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.filter-btn:hover {
+   background-color: black;
+   color: #f6f6f6;
+}
+button.active {
+    background: black;
+}
+
+@media (min-width: 525px) {
+    .filter-container {
+        flex-direction: row;
+    }
+}

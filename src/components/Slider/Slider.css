@@ -1,0 +1,8 @@
+.slider {
+    width: 100%;
+    background: white;
+    display: flex;
+}
+.slider-p {
+    padding: 20px;
+}

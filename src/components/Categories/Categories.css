@@ -1,0 +1,42 @@
+.categories {
+    width: 100%;
+    background: white;
+    display: flex;
+}
+.category {
+    height: 250px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.black {
+    background-color: #151515;
+    background-image: url(/public/images/150-gn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.dark-gray {
+    background-color: #3d3d3d;
+    background-image: url(/public/images/n-100.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.gray {
+    background-color: #929292;
+    background-image: url(/public/images/s-parts.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.category-span {
+    border-top: 3px solid #ffc83b;
+    width: 20px;
+}
+.category > p {
+    max-width: 200px;
+}

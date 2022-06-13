@@ -1,6 +1,7 @@
 import React from "react";
 import "./Shop.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const ShopItem = ({
   id,
@@ -26,6 +27,7 @@ export const ShopItem = ({
         <div>Capacity: {capacity} Gb</div>
         <div>Type: {type}</div>
         <div>{price} $</div>
+        <Link to={`shopitem/${id}`}>More info...</Link>
       </div>
     </motion.div>
   );

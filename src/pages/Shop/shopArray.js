@@ -3,7 +3,7 @@ export const shopArray = [
     id: 1,
     name: "Nolan N100",
     description: "This is Nolan N100 Pro",
-    capacity: 512,
+    fulldescription: "",
     type: "helmet",
     price: 2000,
     image: "/images/demon-150-gr.jpeg",
@@ -13,11 +13,16 @@ export const shopArray = [
   {
     id: 2,
     name: "Nolan N33",
-    description: "This is Nolan N33 Pro",
-    capacity: 256,
+    description: "This is Nolan N40 Pro",
+    fulldescription:
+      "Nolan N33 Evo Classic Helmet Slate Grey. The N33 Evo is a demi-jet type helmet made of high resistance polycarbonate. It stands out for its wide panoramic screen that offers excellent visibility and that together with the built-in sun visor is ideal for daily use and intercity trips. It has a ventilation system with air inlets and extractors for optimal aeration. The interior padding is fully removable and washable.",
     type: "bike",
     price: 1850,
-    image: "/images/n-100.jpeg",
+    image: "/images/nolan/n33-classic-black.webp",
+    images: {
+      image1: "/images/nolan/n33-classic-black.webp",
+      image2: "/images/nolan/n33-matt-black.webp",
+    },
     category: "helmets",
     all: "all",
   },
@@ -25,7 +30,7 @@ export const shopArray = [
     id: 3,
     name: "Nolan N21",
     description: "This is Nolan N21 Pro",
-    capacity: 128,
+    fulldescription: "",
     type: "helmet",
     price: 1600,
     image: "/images/demon-150-gr.jpeg",
@@ -35,8 +40,8 @@ export const shopArray = [
   {
     id: 4,
     name: "Nolan N70",
-    description: "This is Nolan N33 Xs",
-    capacity: 256,
+    description: "This is Nolan N33",
+    fulldescription: "",
     type: "bike",
     price: 1400,
     image: "/images/n-100.jpeg",
@@ -46,8 +51,8 @@ export const shopArray = [
   {
     id: 5,
     name: "Grex",
-    description: "This is Nolan N33 Xr",
-    capacity: 256,
+    description: "This is Nolan N33",
+    fulldescription: "",
     type: "helmet",
     price: 1200,
     image: "/images/n-100.jpeg",
@@ -57,8 +62,8 @@ export const shopArray = [
   {
     id: 6,
     name: "X-Lite 1000",
-    description: "This is Nolan N33 8",
-    capacity: 256,
+    description: "This is Nolan N79X",
+    fulldescription: "",
     type: "bike",
     price: 1000,
     image: "/images/n-100.jpeg",
@@ -68,8 +73,8 @@ export const shopArray = [
   {
     id: 7,
     name: "X-Lite 500",
-    description: "This is Nolan N33 8",
-    capacity: 256,
+    description: "This is Nolan N1000",
+    fulldescription: "",
     type: "helmet",
     price: 1000,
     image: "/images/n-100.jpeg",
@@ -79,8 +84,8 @@ export const shopArray = [
   {
     id: 8,
     name: "X-Lite 200",
-    description: "This is Nolan N33e 8",
-    capacity: 256,
+    description: "This is Nolan N33e",
+    fulldescription: "",
     type: "bike",
     price: 1000,
     image: "/images/n-100.jpeg",
@@ -90,8 +95,8 @@ export const shopArray = [
   {
     id: 9,
     name: "X-Lite 300",
-    description: "This is Nolan N33 8",
-    capacity: 256,
+    description: "This is Nolan N56",
+    fulldescription: "",
     type: "helmet",
     price: 1000,
     image: "/images/n-100.jpeg",
@@ -102,7 +107,7 @@ export const shopArray = [
     id: 10,
     name: "X-Lite 700",
     description: "This is iPhone 8",
-    capacity: 256,
+    fulldescription: "",
     type: "phone",
     price: 1000,
     image: "/images/n-100.jpeg",
@@ -110,6 +115,7 @@ export const shopArray = [
     all: "all",
   },
 ];
+// export default shopArray;
 
 // export const getShopObject = (array) => {
 //   return array.reduce(

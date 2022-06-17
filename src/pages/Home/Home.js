@@ -12,7 +12,7 @@ export const Home = () => {
   return (
     <>
       <section className="hero-section">
-        <video src="/videos/video-2.mp4" autoPlay loop muted />
+        <video src="/videos/front-street.mp4" autoPlay loop muted />
         <div className="hero-content">
           {" "}
           <h2 className="hero-text">

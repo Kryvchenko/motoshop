@@ -1,24 +1,22 @@
+.form-section {
+    /* background: linear-gradient(to left, #f6f6f6 0%, #f6f6f6 50%, #ff6543 50%, #ff6543 100%); */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background: #f6f6f6;
+}
+/* form */
 .form {
     display: flex;
     align-content: center;
     justify-content: center;
     flex-wrap: nowrap;
     padding-bottom: 40px;
-    padding-top: 50px;
     background: #f6f6f6;
 }
-/* .form-section {
-    width: 100%;
-    background: url(/public/images/Sale.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    display: flex;
-    justify-content: center;
-    background-color: #ff6543;
-} */
 .form-input {
-    width: 280px;
+    width: 250px;
     height: 40px;
     margin-bottom: 20px;
     border: 1px solid #929292;
@@ -29,7 +27,7 @@
     color: white;
 } */
 textarea {
-    width: 280px;
+    width: 250px;
     height: 100px;
     margin-bottom: 20px;
     border: 1px solid #929292;
@@ -59,13 +57,42 @@ textarea {
     transition: 500ms ease-in-out;
 }
 
+/* Contact info */
+.contact-info {
+    padding: 10px 20px;
+}
+.contact-info > p {
+    margin-top: 10px;
+    max-width: 280px;
+}
+.side-logos {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-logo {
+    height: 70px;
+    max-width: 140px;
+    padding: 10px;
+}
 
 @media (min-width: 768px) {
     .form-input {
-        width: 500px;
+        width: 350px;
         height: 40px;
     }
     textarea  {
-        width: 500px;
+        width: 350px;
+    }
+    .logos-row {
+        flex-direction: row;
+    }
+    .contact-info {
+        padding: 50px 10px 40px 10px;
+    }
+    .form {
+        padding-top: 50px;
     }
 }

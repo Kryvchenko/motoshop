@@ -28,11 +28,11 @@ export const Header = () => {
     isActive ? "nav-active" : "nav-link";
 
   return (
-    <header className={screenWidth > 767 ? "header" : "header-mob"}>
+    <header className="header">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-4">
-            <NavLink to="/home" rel="noopener">
+            <NavLink to="/" rel="noopener">
               <img src="./images/logo.png" alt="" />
             </NavLink>
           </div>
@@ -40,11 +40,7 @@ export const Header = () => {
             {(toggleMenu || screenWidth > 768) && (
               <ul className="nav-menu">
                 <li className="nav-item">
-                  <NavLink
-                    to="/home"
-                    rel="noopener"
-                    className={setNavLinkClass}
-                  >
+                  <NavLink to="/" rel="noopener" className={setNavLinkClass}>
                     HOME
                   </NavLink>
                 </li>
@@ -68,19 +64,15 @@ export const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/blog"
+                    to="/service"
                     rel="noopener"
                     className={setNavLinkClass}
                   >
-                    BLOG
+                    SERVICE
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink
-                    to="/contacts"
-                    rel="noopener"
-                    className={setNavLinkClass}
-                  >
+                  <NavLink to="/" rel="noopener" className={setNavLinkClass}>
                     CONTACTS
                   </NavLink>
                 </li>

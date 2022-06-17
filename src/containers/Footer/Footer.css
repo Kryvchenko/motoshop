@@ -1,8 +1,10 @@
+
 .footer {
     width: 100%;
     background: #313131;
     display: flex;
-    padding-top: 30px;
+    align-items: flex-end;
+    /* padding-top: 30px; */
 }
 .footer-content {
     padding: 20px;
@@ -43,16 +45,8 @@
 .footer-title {
     margin-bottom: 25px;
 }
-.testimonial-text {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-.footer-span {
-    background-color: #ffc813;
-    width: 30px;
-    height: 2px;
-    margin-right: 10px;
+.footer-content > p {
+    margin: 9px 0;
 }
 @media (min-width: 768px) {
     .footer-content {
@@ -62,8 +56,5 @@
 @media (min-width: 1024px) {
     .footer-content {
         padding: 50px 20px;
-    }
-    .testimonial-text {
-        margin-top: 30px;
     }
 }

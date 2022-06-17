@@ -35,15 +35,10 @@ export const Footer = () => {
             <div className="col-xs-12 col-sm-4">
               {" "}
               <div className="footer-content">
-                <h2 className="footer-title">TESTIMONIAL</h2>
-                <p className="testimonial-p">
-                  The most difficult thing is the decision to act, the rest is
-                  merely tenacity.
-                </p>
-                <div className="testimonial-text">
-                  <span className="footer-span"></span>
-                  <p>Amelia Smith</p>
-                </div>
+                <h2 className="footer-title">ADDRESS</h2>
+                <p>49 Serpentine Rd, Hamilton HM 09, Bermuda</p>
+                <p>Phone: +1 441-295-0003</p>
+                <p>Email: info@cyclecare.bm</p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-4">

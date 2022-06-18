@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./About.css";
 
 export const About = () => {
@@ -24,7 +25,9 @@ export const About = () => {
                   come together daily to inspire, challenge, and motivate each
                   other to do more and become more.
                 </p>
-                <button className="about-btn">LEARN MORE</button>
+                <Link to="/about" rel="noopener">
+                  <button className="about-btn">LEARN MORE</button>
+                </Link>
               </div>
             </div>
             {/* <div className="col-xs-12 col-sm-2"></div> */}

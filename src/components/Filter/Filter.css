@@ -20,6 +20,7 @@
 .filter-btn:hover {
    background-color: black;
    color: #f6f6f6;
+   transition: 300ms ease-in-out;
 }
 button.active {
     background: black;

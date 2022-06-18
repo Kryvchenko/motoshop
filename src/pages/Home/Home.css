@@ -50,6 +50,11 @@ video {
     color: white;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.hero-btn:hover {
+    background: #f6c831;
+    transition: 300ms ease-in-out;
 }
 
 @media (min-width: 768px) {

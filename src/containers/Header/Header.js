@@ -68,11 +68,15 @@ export const Header = () => {
                     rel="noopener"
                     className={setNavLinkClass}
                   >
-                    SERVICE
+                    SERVICES
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/" rel="noopener" className={setNavLinkClass}>
+                  <NavLink
+                    to="/form"
+                    rel="noopener"
+                    className={setNavLinkClass}
+                  >
                     CONTACTS
                   </NavLink>
                 </li>

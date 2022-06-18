@@ -27,6 +27,11 @@
     color: white;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.about-btn:hover {
+    background-color: #ffc83b;
+    transition: 200ms ease-in-out;
 }
 .about-img {    
     width: 100%;

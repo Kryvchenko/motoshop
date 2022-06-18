@@ -6,10 +6,11 @@ import { Paper } from "@mui/material";
 export const SingleItem = () => {
   const { name } = useParams();
   const thisArray = shopArray.find((prod) => prod.name === name);
-  const [imageColor, setImageColor] = useState(thisArray.images.image1);
-  function toggleColor() {
-    setImageColor();
-  }
+  // const [imageColor, setImageColor] = useState(thisArray.images);
+
+  // function toggleColor() {
+  //   setImageColor();
+  // }
 
   return (
     <section className="single-item">
@@ -21,10 +22,10 @@ export const SingleItem = () => {
           <h1 className="description-title">{thisArray.description}</h1>
           <div className="fulldescription">{thisArray.fulldescription}</div>
           <h3 className="description-title">Price: ${thisArray.price}</h3>
-          <button onClick={toggleColor}>Toggle color</button>
+          {/* <button onClick={toggleColor}>Toggle color</button> */}
         </div>
         <div className="item-content-left">
-          <img src={imageColor} alt="" className="single-item-img" />
+          <img src={thisArray.image} alt="" className="single-item-img" />
         </div>
       </Paper>
       <Link to="/shop" className="back-link">

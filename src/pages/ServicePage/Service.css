@@ -1,3 +1,44 @@
 .service-section {
-    padding: 100px 20px 100px 20px; 
+    padding: 100px 20px 20px 20px; 
+    display: flex;
+    min-height: 80vh;
+    background-color: #f6f6f6;
 }
+.service-img {
+   width: 100%;
+   margin-top: 5px;
+}
+.quality-img {
+    height: 50px;
+    margin: 5px;
+}
+.quality-div {
+    display: flex;
+    margin-top: 10px;
+}
+.service-img-div {
+    /* min-height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+}
+.service-note-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.servise-title-text {
+    margin-bottom: 10px;
+}
+.service-text {
+    margin-top: 10px;
+}
+.service-content {
+    line-height: 20px;
+    padding: 20px;
+}
+
+
+
+

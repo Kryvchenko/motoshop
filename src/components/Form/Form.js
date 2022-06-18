@@ -51,7 +51,9 @@ export const Form = (props) => {
               <form action="" onSubmit={sendEmail}>
                 <center>
                   {" "}
-                  <h1 className="form-title">CONTACT FORM</h1>
+                  <h1 className="form-title" id="form">
+                    CONTACT FORM
+                  </h1>
                 </center>
 
                 <br />

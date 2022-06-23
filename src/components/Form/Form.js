@@ -14,10 +14,10 @@ export const Form = (props) => {
 
     emailjs
       .sendForm(
-        "service_fojaehh",
-        "template_x26njxh",
+        "service_u9gv2np",
+        "template_4zxorjs",
         e.target,
-        "wVG5ej37S9H4jkWYW"
+        "imLbn0hUbIvWeiUGv"
       )
       .then(
         (result) => {

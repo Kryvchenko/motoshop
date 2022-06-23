@@ -50,6 +50,7 @@ textarea {
     border-radius: 10px;
     border: none;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 .submit-btn:hover {

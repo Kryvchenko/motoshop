@@ -15,9 +15,9 @@ export const Home = () => {
         <video src="/videos/front-street.mp4" autoPlay loop muted />
         <div className="hero-content">
           {" "}
-          <h2 className="hero-text">
+          {/* <h2 className="hero-text">
             32 years of professional experience in Bermuda
-          </h2>
+          </h2> */}
           <NavLink to="/shop" rel="noopener">
             <button className="hero-btn">SHOP NOW</button>
           </NavLink>

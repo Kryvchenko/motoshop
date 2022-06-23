@@ -2,8 +2,8 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    background: linear-gradient(to left, #f6f6f6 0%, #f6f6f6 30%, #ffc83b 70%, #ffc83b 100%);
-    /* background-color: #ff6543; */
+    /* background: linear-gradient(to left, #f6f6f6 0%, #f6f6f6 30%, #ffc83b 70%, #ffc83b 100%); */
+    background-color: #313131;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -36,11 +36,11 @@
 .nav-active {
     text-decoration: underline; 
     transition: 300ms ease-in-out; 
-    color: black;  
+    color: white;  
 }
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .nav-link:hover {
     color: #ff6543;

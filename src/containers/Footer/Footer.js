@@ -44,7 +44,7 @@ export const Footer = () => {
             <div className="col-xs-12 col-sm-4">
               <div className="footer-content">
                 <img
-                  src="images/footer-logo.png"
+                  src="images/logo-white.png"
                   alt=""
                   className="footer-logo"
                 />

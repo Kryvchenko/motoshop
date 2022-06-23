@@ -16,6 +16,11 @@ export const AboutPage = () => {
             </div>
             <div className="col-xs-12">
               <div className="family-story">
+                <img
+                  src="/images/kymco/kymco.jpg"
+                  alt=""
+                  className="about-image"
+                />
                 <p className="p-about">
                   The word family is one of the most loosely defined terms in
                   the English language; because it means something different to
@@ -48,11 +53,7 @@ export const AboutPage = () => {
                   childless couples, friends as family, or many other variations
                   of the family unit.
                 </p>
-                <img
-                  src="/images/kymco/kymco.jpg"
-                  alt=""
-                  className="about-image"
-                />
+
                 <p className="p-about">
                   The word family is one of the most loosely defined terms in
                   the English language; because it means something different to

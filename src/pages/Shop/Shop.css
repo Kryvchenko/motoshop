@@ -52,6 +52,11 @@
 .item-content-left {
     text-align: center;
 }
+.item-content-right, .item-content-left {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 .single-item-img {
     max-height: 250px;
 }
@@ -67,8 +72,102 @@
     margin: 10px 0;
     padding: 0;
 }
+.description-price {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    padding: 0;
+}
 .fulldescription {
     max-width: 500px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* Features */
+
+.features-specs {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    min-height: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.feature-item {
+    line-height: 25px;
+    border-bottom: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+}
+.feature-item:nth-child(odd) {
+    background: #f6f6f6;
+  }
+.features-specs-title {
+    padding-left: 10px;
+}
+.quote-btn {
+    font-size: 14px;
+    line-height: 24px;
+    width: 160px;
+    font-weight: 400;;
+    padding: 5px 10px;
+    font-family: Roboto, sans-serif;
+    background: #ff4b52;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.quote-btn:hover {
+    background: #f6c831;
+    transition: 300ms ease-in-out;
+}
+
+/*  Modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  opacity: 90%;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.modal-input {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.modal-close-btn {
+    position: absolute;
+    top:4px;
+    right: 4px;
+    background: #ff4b52;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.modal-close-btn:hover {
+    background: #f6c831;
+    transition: 300ms ease-in-out;
 }
 
 @media (min-width: 768px) {
@@ -76,9 +175,9 @@
         flex-direction: row;
     }
     .item-content-right, .item-content-left {
-        width: 50%;
+        width: 300px;
     }
     .single-item-img {
-        max-height: 400px;
+        max-height: 200px;
     }
 }

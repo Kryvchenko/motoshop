@@ -12,6 +12,9 @@ export const AboutPage = () => {
               <center>
                 {" "}
                 <h1 className="">LONG STORY - SHORT</h1>
+                <h2 className="about-secont-title">
+                  32 years of professional experience in Bermuda
+                </h2>
               </center>
             </div>
             <div className="col-xs-12">

@@ -6,8 +6,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Paper } from "@mui/material";
 import { FaStar } from "react-icons/fa";
-import { FaRegHeart } from "react-icons/fa";
-// import { FaHeart } from "react-icons/fa";
 
 export const Shop = ({ category, all }) => {
   return (
@@ -47,9 +45,6 @@ export const Shop = ({ category, all }) => {
                     <Link to={`/${name}`} className="info-link">
                       More info...
                     </Link>
-                    <div>
-                      <FaRegHeart />
-                    </div>
                   </span>{" "}
                 </div>
               </motion.div>

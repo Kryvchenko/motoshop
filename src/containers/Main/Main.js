@@ -5,7 +5,7 @@ import { AboutPage } from "../../pages/About/AboutPage";
 import { Home } from "../../pages/Home/Home";
 import { Service } from "../../pages/ServicePage/Service";
 import { Shop } from "../../pages/Shop/Shop";
-import { SingleItem } from "../../pages/Shop/SingleItem";
+import SingleItem from "../../pages/Shop/SingleItem";
 import { ScrollToTop } from "../../components/ScrollToTop/ScrollToTop";
 
 export const Main = () => {

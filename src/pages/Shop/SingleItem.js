@@ -7,6 +7,7 @@ import Modal from "react-modal";
 import emailjs from "@emailjs/browser";
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { connect } from "react-redux";
 
 const Result = () => {
   return <p>Success! We will contact you soon!</p>;
@@ -14,7 +15,7 @@ const Result = () => {
 
 Modal.setAppElement("#root");
 
-export const SingleItem = ({ changeLikeState, likeProductState }) => {
+const SingleItem = ({ changeLikeState, likeProductState }) => {
   const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
@@ -141,3 +142,7 @@ export const SingleItem = ({ changeLikeState, likeProductState }) => {
     </>
   );
 };
+const mapStateToProps = (state, props) => ({
+  isLiked: state[props.id],
+});
+export default connect(mapStateToProps)(SingleItem);

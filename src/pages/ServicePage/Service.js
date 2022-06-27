@@ -13,7 +13,10 @@ export const Service = () => {
               {" "}
               <center>
                 {" "}
-                <h1 className="services-title" style={{ color: "#ff4b52" }}>
+                <h1
+                  className="services-title"
+                  style={{ color: "#ff4b52", paddingBottom: 0 }}
+                >
                   S
                   <span style={{ color: "black" }}>
                     <Typewriter

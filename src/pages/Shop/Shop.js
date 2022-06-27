@@ -6,11 +6,32 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Paper } from "@mui/material";
 import { FaStar } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 export const Shop = ({ category, all }) => {
   return (
     <>
       {" "}
+      <center>
+        {" "}
+        <h1
+          className="shop-title"
+          style={{ color: "#ff4b52", paddingTop: "100px" }}
+        >
+          S
+          <span style={{ color: "black" }}>
+            <Typewriter
+              loop={1}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              words={["HOP"]}
+            />
+          </span>
+        </h1>
+      </center>
       <Filter category={category} all={all} />
       <motion.div layout className="shop">
         {shopArray

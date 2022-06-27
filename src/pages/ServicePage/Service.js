@@ -1,6 +1,7 @@
 import React from "react";
 import "./Service.css";
 import pdf from "./check-in-form.pdf";
+import { Typewriter } from "react-simple-typewriter";
 
 export const Service = () => {
   return (
@@ -12,7 +13,20 @@ export const Service = () => {
               {" "}
               <center>
                 {" "}
-                <h1 className="services-title">SERVICES</h1>
+                <h1 className="services-title" style={{ color: "#ff4b52" }}>
+                  S
+                  <span style={{ color: "black" }}>
+                    <Typewriter
+                      loop={1}
+                      cursor
+                      cursorStyle="_"
+                      typeSpeed={70}
+                      deleteSpeed={50}
+                      delaySpeed={1000}
+                      words={["ERVICES"]}
+                    />
+                  </span>
+                </h1>
               </center>
             </div>
             <div className="col-sm-12 col-sm-6">

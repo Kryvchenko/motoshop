@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import "./Form.css";
+import { Typewriter } from "react-simple-typewriter";
 
 const Result = () => {
   return <p>Success! We will contact you soon!</p>;
@@ -51,8 +52,23 @@ export const Form = (props) => {
               <form action="" onSubmit={sendEmail}>
                 <center>
                   {" "}
-                  <h1 className="form-title" id="form">
-                    CONTACT FORM
+                  <h1
+                    className="form-title"
+                    id="form"
+                    style={{ color: "#ff4b52" }}
+                  >
+                    C
+                    <span style={{ color: "black" }}>
+                      <Typewriter
+                        loop={1}
+                        cursor
+                        cursorStyle="_"
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                        words={["ONTACT FORM"]}
+                      />
+                    </span>
                   </h1>
                 </center>
 

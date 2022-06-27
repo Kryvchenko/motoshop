@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
+import { Typewriter } from "react-simple-typewriter";
 
 export const AboutPage = () => {
   return (
@@ -11,7 +12,26 @@ export const AboutPage = () => {
               {" "}
               <center>
                 {" "}
-                <h1 className="">LONG STORY - SHORT</h1>
+                <center>
+                  {" "}
+                  <h1
+                    className="about-secont-title "
+                    style={{ color: "#ff4b52", paddingBottom: 0 }}
+                  >
+                    L
+                    <span style={{ color: "black" }}>
+                      <Typewriter
+                        loop={1}
+                        cursor
+                        cursorStyle="_"
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                        words={["ONG STORY - SHORT"]}
+                      />
+                    </span>
+                  </h1>
+                </center>
                 <h2 className="about-secont-title">
                   32 years of professional experience in Bermuda
                 </h2>

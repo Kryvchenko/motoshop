@@ -13,9 +13,10 @@ video {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
+   
 }
 .hero-section {
     height: 100vh;
@@ -25,6 +26,8 @@ video {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
 }
 .hero-btn {
     font-size: 14px;
@@ -39,15 +42,30 @@ video {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-weight: 700;
 }
 .hero-btn:hover {
     background: #f6c831;
     transition: 300ms ease-in-out;
 }
+.hero-btn:focus {
+    outline: none;
+}
+
+.hero-btn:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.hero-title {
+    font-size: 30px;
+}
+
 
 @media (min-width: 768px) {
     .hero-btn {
         font-size: 18px;
+    }
+    .hero-title {
+        font-size: 40px;
     }
 }
 

@@ -18,7 +18,15 @@ export const Home = () => {
   return (
     <>
       <section className="hero-section">
-        <video src="/videos/f-street.mp4" autoPlay loop muted />
+        <video
+          src="/videos/f-street.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          width="100%"
+          poster="/images/kymco/kymco.jpg"
+        />
         <div className="hero-content">
           {" "}
           <center>

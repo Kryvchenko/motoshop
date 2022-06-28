@@ -18,7 +18,7 @@ export const Home = () => {
   return (
     <>
       <section className="hero-section">
-        <video src="/videos/front-street.mp4" autoPlay loop muted />
+        <video src="/videos/f-street.mp4" autoPlay loop muted />
         <div className="hero-content">
           {" "}
           <center>

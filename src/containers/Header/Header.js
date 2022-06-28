@@ -40,7 +40,12 @@ export const Header = () => {
             {(toggleMenu || screenWidth > 768) && (
               <ul className="nav-menu">
                 <li className="nav-item">
-                  <NavLink to="/" rel="noopener" className={setNavLinkClass}>
+                  <NavLink
+                    to="/"
+                    rel="noopener"
+                    className={setNavLinkClass}
+                    onClick={toggleNav}
+                  >
                     HOME
                   </NavLink>
                 </li>
@@ -49,6 +54,7 @@ export const Header = () => {
                     to="/about"
                     rel="noopener"
                     className={setNavLinkClass}
+                    onClick={toggleNav}
                   >
                     ABOUT
                   </NavLink>
@@ -58,6 +64,7 @@ export const Header = () => {
                     to="/shop"
                     rel="noopener"
                     className={setNavLinkClass}
+                    onClick={toggleNav}
                   >
                     SHOP
                   </NavLink>
@@ -67,6 +74,7 @@ export const Header = () => {
                     to="/service"
                     rel="noopener"
                     className={setNavLinkClass}
+                    onClick={toggleNav}
                   >
                     SERVICES
                   </NavLink>
@@ -76,6 +84,7 @@ export const Header = () => {
                     to="/form"
                     rel="noopener"
                     className={setNavLinkClass}
+                    onClick={toggleNav}
                   >
                     CONTACTS
                   </NavLink>

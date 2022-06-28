@@ -48,7 +48,7 @@ export const Form = (props) => {
             </div>
           </div>
           <div className="col-xs-12 col-sm-6">
-            <div className="form">
+            <div className="form" id="form">
               <form action="" onSubmit={sendEmail}>
                 <center>
                   {" "}

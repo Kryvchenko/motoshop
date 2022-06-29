@@ -5,7 +5,7 @@ import "./Map.css";
 
 export default function Maphome() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDVpTj0S8U2WRNf_wmdz3vyMRTfmCY4R0A",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
   });
 
   if (!isLoaded) return <div>Loading...</div>;
@@ -23,5 +23,3 @@ function Map() {
     </GoogleMap>
   );
 }
-
-// process.env.REACT_APP_GOOGLE_MAPS_API_KEY

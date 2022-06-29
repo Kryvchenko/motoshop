@@ -54,8 +54,8 @@ export const Home = () => {
           </NavLink>
         </div>
       </section>
-      <Sale />
       <Categories />
+      <Sale />
       <About />
       <Features />
       <Maphome />

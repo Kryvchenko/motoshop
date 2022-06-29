@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { shopArray } from "./shopArray";
-import { Paper, Button } from "@mui/material";
+import { Paper } from "@mui/material";
 import { ProductSlider } from "../../components/ProductSlider.js/ProductSlider";
 import Modal from "react-modal";
 import emailjs from "@emailjs/browser";
-import { FaRegHeart } from "react-icons/fa";
-import { FaHeart } from "react-icons/fa";
-import { connect } from "react-redux";
 
 const Result = () => {
   return <p>Success! We will contact you soon!</p>;
@@ -15,7 +12,7 @@ const Result = () => {
 
 Modal.setAppElement("#root");
 
-const SingleItem = ({ changeLikeState, likeProductState }) => {
+export const SingleItem = () => {
   const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
@@ -42,7 +39,6 @@ const SingleItem = ({ changeLikeState, likeProductState }) => {
   const thisArray = shopArray.find((prod) => prod.name === name);
   const [imageColor] = useState(thisArray.images);
   const [imageFeature] = useState(thisArray.features);
-  const isLiked = likeProductState[thisArray.id];
   const customStyles = {
     overlay: { zIndex: 1000 },
   };
@@ -113,13 +109,6 @@ const SingleItem = ({ changeLikeState, likeProductState }) => {
             <button className="quote-btn" onClick={() => setModalIsOpen(true)}>
               GET A QUOTE
             </button>
-            <Button
-              size="large"
-              style={{ color: "black" }}
-              onClick={() => changeLikeState(thisArray.id)}
-            >
-              {isLiked ? <FaHeart /> : <FaRegHeart />}
-            </Button>
           </div>
         </Paper>
 
@@ -142,7 +131,3 @@ const SingleItem = ({ changeLikeState, likeProductState }) => {
     </>
   );
 };
-const mapStateToProps = (state, props) => ({
-  isLiked: state[props.id],
-});
-export default connect(mapStateToProps)(SingleItem);

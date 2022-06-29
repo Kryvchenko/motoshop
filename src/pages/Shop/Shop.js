@@ -36,7 +36,7 @@ export const Shop = ({ category, all }) => {
       <motion.div layout className="shop">
         {shopArray
           .filter((el) => el.category === category || el.all === all)
-          .map(({ id, name, description, capacity, type, price, image }) => (
+          .map(({ id, name, description, price, image }) => (
             <Paper key={id}>
               <motion.div
                 layout

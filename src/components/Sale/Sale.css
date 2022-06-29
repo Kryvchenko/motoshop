@@ -22,10 +22,13 @@
 .sale-title {
   color: white;
 }
+.sale-description {
+    margin-bottom: 5px;
+}
 .sale-off {
     font-size: 36px;
     font-weight: 800;
-    margin-right: 2px;
+    margin-right: 5px;
 }
 .discount-container {
     display: flex;

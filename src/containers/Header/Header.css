@@ -2,12 +2,12 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    /* background: linear-gradient(to left, #f6f6f6 0%, #f6f6f6 30%, #ffc83b 70%, #ffc83b 100%); */
     background-color: #313131;
     position: fixed;
     width: 100%;
     z-index: 10;
 }
+
 /* .header-mob {
     padding: 20px;
     position: fixed;

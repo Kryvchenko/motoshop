@@ -23,40 +23,40 @@ export const Sale = () => {
                   </div>
                 </div>
                 <div className="bottom-content">
-                  <h4>GPX Demon summer sale</h4>
+                  <h4 className="sale-description">GPX Demon summer sale</h4>
                   <p>Some description about promo</p>
                 </div>
               </div>
             </div>
             <div className="col-xs-12 col-sm-4">
               <div className="sale-content">
-                <h2>2018 YEARS MODELS</h2>
+                <h2>2021 YEARS MODELS</h2>
                 <div className="discount-container">
-                  <p className="sale-off">500</p>
+                  <p className="sale-off">299</p>
                   <div className="discount">
                     <p>$</p>
                     <p>OFF</p>
                   </div>
                 </div>
                 <div className="bottom-content">
-                  <h4>Kymco, GPX</h4>
+                  <h4 className="sale-description">Kymco, GPX</h4>
                   <p>Plus 1 year warranty</p>
                 </div>
               </div>
             </div>
             <div className="col-xs-12 col-sm-4">
               <div className="sale-content">
-                <h2>2018 YEARS MODELS</h2>
+                <h2>NOLAN TRADE-IN</h2>
                 <div className="discount-container">
-                  <p className="sale-off">500</p>
+                  <p className="sale-off">UP TO 100</p>
                   <div className="discount">
                     <p>$</p>
                     <p>OFF</p>
                   </div>
                 </div>
                 <div className="bottom-content">
-                  <h4>Kymco, GPX</h4>
-                  <p>Plus 1 year warranty</p>
+                  <h4 className="sale-description">Nolan, Grex, X-Lite</h4>
+                  <p>Change your old helmet to the new one</p>
                 </div>
               </div>
             </div>

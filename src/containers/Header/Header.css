@@ -8,16 +8,6 @@
     z-index: 10;
 }
 
-/* .header-mob {
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    background-color: #929292;
-} */
 .nav-menu {
     display: flex;
     justify-content: flex-end;

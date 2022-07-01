@@ -33,7 +33,7 @@ export const Header = () => {
         <div className="row">
           <div className="col-xs-12 col-sm-4">
             <NavLink to="/" rel="noopener">
-              <img src="./images/logo-white.png" alt="" />
+              <img src="./images/logofinal.png" alt="" />
             </NavLink>
           </div>
           <div className="col-xs-12 col-sm-8">

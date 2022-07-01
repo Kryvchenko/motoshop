@@ -54,7 +54,7 @@ export const shopArray = [
     images: {
       color1: "/images/nolan/n33-classic-black.webp",
       color2: "/images/nolan/n33-matt-black.webp",
-      color3: "/images/nolan/n33-slat-gray.webp",
+      color3: "/images/nolan/n33-slat-grey.png",
       color4: "/images/nolan/n33-white.webp",
       color5: "/images/nolan/n33-vulcan-grey.webp",
     },
